@@ -1,0 +1,53 @@
+
+html{
+
+
+    background-color: black;
+    color: azure;
+
+}
+
+
+#navbar{
+    height: 50px ;
+
+
+}
+
+
+body{
+    margin:0;
+}
+
+
+div{
+
+    box-sizing: border-box;
+}
+
+
+#flex{
+
+    
+    display: flex;
+    height: calc(100vh - 50px)
+
+
+}
+
+#sidebar{
+
+    width: 30%;
+}
+
+#main{
+
+    width: 70%;
+}
+
+.container{
+    border-color:wheat;
+    border-style: dotted;
+    border-width: 1px;
+
+}
