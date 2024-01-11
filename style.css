@@ -2,7 +2,7 @@
 html{
 
 
-    background-color: black;
+    background-color: rgb(12, 66, 129);
     color: azure;
 
 }
@@ -16,13 +16,13 @@ html{
 
 
 body{
-    margin:0;
+    margin: 0px;
 }
 
 
 div{
 
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 
 
@@ -30,24 +30,40 @@ div{
 
     
     display: flex;
-    height: calc(100vh - 50px)
+    flex-wrap: wrap;
+    height: 200px
 
 
 }
 
-#sidebar{
+#box01{
 
-    width: 30%;
+    width: 200px;
 }
 
-#main{
+#box02{
 
-    width: 70%;
+    width: 200px;
+}
+
+#box03{
+
+    width: 200px;
+}
+
+#box04{
+
+    width: 200px;
+}
+
+#box05{
+
+    width: 200px;
 }
 
 .container{
-    border-color:wheat;
+    border-color:rgb(255, 255, 255);
     border-style: dotted;
-    border-width: 1px;
+    border-width: 0.5px;
 
 }
